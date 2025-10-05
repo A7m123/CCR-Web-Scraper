@@ -1,0 +1,25 @@
+{
+  "url": "https://ccr.mit.gov.jo/mitq/faces/HomePage",
+  "wait_timeout": 10,
+  "page_load_delay": 2,
+  "search_params": {
+    "registration_number": "",
+    "national_id_investor": "",
+    "trade_name": "",
+    "national_id_establishment": ""
+  },
+  "pagination": {
+    "scrape_all_pages": true,
+    "max_pages": 200000
+  },
+  "output": {
+    "format": "excel",
+    "filename": "ccr_data_{date}.xlsx"
+  },
+  "notes": {
+    "search_params_info": "Leave empty strings to search all results. Fill in values to filter specific data.",
+    "format_options": "Use 'csv' for CSV format or 'excel' for Excel format",
+    "filename_info": "{date} will be replaced with current date and time",
+    "max_pages_info": "Set to 50 for testing. Change to 11848 or higher to scrape all data (will take hours!)"
+  }
+}

@@ -1,0 +1,47 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Output files (scraped data)
+ccr_data_*.xlsx
+ccr_data_*.csv
+ccr_checkpoint_*.xlsx
+ccr_final_*.xlsx
+ccr_interrupted_*.xlsx
+ccr_error_*.xlsx
+
+# Page source files
+page_source.html
+*.html
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Selenium
+geckodriver.log
+chromedriver.log
+
+# Temporary files
+*.tmp
+*.temp
